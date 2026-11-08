@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Entradas descargadas y resultados locales del TP
+results.csv
+schema.csv
+dataset_limpio.pkl
+dataset_limpio_*.pkl
+ejercicios.ipynb
