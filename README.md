@@ -34,6 +34,8 @@ El archivo de respuestas tiene 49.191 registros y 172 columnas. Se conserva como
 
 ## Criterios de interpretación
 
+La hipótesis multivariada relaciona tamaño de empresa (`OrgSize`), modalidad de trabajo (`RemoteWork`) y rol (`ICorPM`). Se construyen tablas de cantidades y porcentajes por tamaño y se aplica chi-cuadrado de independencia por separado a contribuidores individuales y responsables de personas. El planteo requiere asociación en ambos roles y no prueba causalidad ni un efecto de interacción.
+
 Las comparaciones salariales usan compensación anual total en USD y medianas. La comparación argentina conserva las referencias del grupo: ARS 391.200 mensuales de SMVM y ARS 1.570 por USD. Son valores del escenario elegido para 2026, mientras que las compensaciones provienen de 2025.
 
 En la hipótesis C se distinguen satisfacción general y prioridades laborales. `JobSatPoints_*` contiene rankings de importancia; no son calificaciones de satisfacción por aspecto. Se contrastan por separado la satisfacción general y el aspecto elegido como prioridad principal con la situación de cambio laboral.
